@@ -10,8 +10,8 @@ export default defineConfig({
         target: 'http://145.24.222.250:8001',
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/animes/, '/animes'),
-      },
-    },
-  },
+        rewrite: (path) => path.replace(/^\/animes/, '/animes')
+      }
+    }
+  }
 })
